@@ -23,15 +23,18 @@ h1 {
 }
 
 h2 {
-    font-family: serif;
-    color: rgb(91, 115, 146);
-    font-weight: 900;
+    font-family: "ogg", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 3em;
+    color: rgb(92, 103, 132);
+    font-weight: 900;
     margin: .2em .2em;
 }
 
 h2.secondary {
     font-size: 2em;
+    line-height: 1em;
 }
 
 h2.tertiary {
@@ -43,10 +46,11 @@ a {
 }
 
 nav a {
-    color: rgb(91, 115, 146);
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 1.25em;
+    font-family: "ogg", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: rgb(140, 97, 137);
 }
 
 nav ul {
@@ -58,7 +62,9 @@ ul li{
 }
 
 p {
-    font-family: sans-serif;
+    font-family: "obviously", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: rgb(0, 0, 0);
     margin: 0em .5em 2em .5em;
     line-height: 1.5;
@@ -69,7 +75,7 @@ header {
 }
 
 .tertiary-teaser {
-    border-top: 1px solid rgb(95, 125, 164);
+    border-top: 1px solid rgb(140, 97, 137);
     margin: .5em;
     padding-top: .5em;
 }
@@ -81,7 +87,10 @@ header {
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: "obviously", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.8em;
     color: rgb(128, 128, 128);
     font-style: italic;
     margin: .5em;
@@ -96,7 +105,7 @@ article p {
 }
 
 aside {
-    background-color: rgb(197, 204, 255);
+    background-color: rgb(198, 211, 247);
     padding: 1em .5em;
 }
 
@@ -109,13 +118,16 @@ aside p {
 }
 
 footer {
-    background-color: rgb(91, 115, 146);
-    padding:1em .5em;
+    background-color: rgb(140, 97, 137);
+    padding: 1em .5em;
 }
 
 footer p {
+    font-family: "obviously", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8em;
     color: rgb(255, 255, 255);
-    font-family: sans-serif;
     margin: 0em;
 }
 
