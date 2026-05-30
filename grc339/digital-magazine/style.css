@@ -107,7 +107,7 @@ article p {
 }
 
 aside {
-    background-color: rgb(198, 211, 247);
+    background-color: rgb(193, 229, 244);
     padding: 1em .5em;
 }
 
@@ -174,100 +174,83 @@ h3 {
     font-weight: 300;
     font-style: normal;
     font-size: 1em;
-    color: rgb(92, 103, 132);
+    color: rgb(0, 0, 0);
 }
 
-.newsletter {
-  background-color: var(--gray-light);
-  padding: 1.5em;
+main.newsletter {
+    background-color: rgb(193, 229, 244);
+    padding: 1.5em;
+    margin-bottom: 2em;
 }
 
-.newsletter h2 {
-  color: var(--blue);
-  line-height: 100%;
-  font-size: 2em;
+main.newsletter h2 {
+    font-size: 2em;
 }
 
-.newsletter p,
-.newsletter label {
-  color: var(--black);
+main.newsletter form ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
-.newsletter form ul {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25em;
-  padding: 0;
+main.newsletter form li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
-.newsletter form li {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4em;
+main.newsletter label {
+    font-family: "obviously", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    margin: 0;
 }
 
-.newsletter .options {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75em;
+div.options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
-.newsletter .option {
-  display: flex;
-  align-items: center;
-  gap: 0.35em;
-}
-
-.newsletter .option label {
-  margin: 0;
-  font-weight: var(--weight-light);
+div.option {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
 }
 
 input[type="text"],
 input[type="email"] {
-  width: 100%;
-  padding: 0.75em;
-  border: 1px solid var(--gray-light);
-  font-family: var(--IBM);
-  box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    border: 1px solid rgb(92, 103, 132);
+    border-radius: 10px;
+    font-family: "obviously", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(0, 0, 0);
 }
 
 button {
-  box-sizing: border-box;
-  display: block;
-  width: 100%;
-  background-color: var(--orange);
-  color: var(--white-light);
-  border: none;
-  padding: 0.8em 1.5em;
-  font-family: var(--space-grotesk);
-  font-weight: var(--weight-bold);
-  text-transform: uppercase;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background-color: rgb(92, 103, 132);
+    border: none;
+    border-radius: 10px;
+    padding: 1em;
+    font-family: "obviously", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
 }
 
 button:hover {
-  background-color: var(--blue-light);
-}
-
-.subscribe-banner {
-  background-color: var(--gray);
-  margin-top: 1em;
-}
-
-.subscribe-banner a {
-  display: block;
-  padding: 1em 1.5em;
-}
-
-.subscribe-banner h2 {
-  color: var(--white-light);
-  font-size: 1.8em;
-  line-height: 1em;
-  padding: 0 0 0.25em;
-}
-
-.subscribe-banner p {
-  margin: 0;
+    background-color: rgb(128, 128, 128);
 }
 
 @media only screen and (min-width: 40em) {
@@ -298,7 +281,7 @@ button:hover {
         margin-right: 1em;
 	}
 
-    .newsletter.options {
+    div.options {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0.75em 1.25em;
@@ -409,10 +392,6 @@ button:hover {
 
     section.secondary-teaser a p {
         flex: 0 0 4em;
-    }
-
-    .subscribe-banner {
-        grid-column: 1 / 3;
     }
 
 }
