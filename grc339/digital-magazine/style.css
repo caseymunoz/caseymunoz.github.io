@@ -395,3 +395,67 @@ button:hover {
     }
 
 }
+
+/* Dark Mode */
+@media screen and (prefers-color-scheme: dark) {
+
+    h1 {  
+        background-image: url("WornWellLogo_DarkMode.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    h1 img {  
+        opacity: 0;
+    }
+    
+    h2 {
+        color: rgb(236, 197, 234);
+    }
+
+    body {
+        background-color: rgb(45, 45, 50);
+    }
+
+    p, h3, main.newsletter label {
+        color: rgb(255, 255, 255);
+    }
+
+    footer{
+        background-color: rgb(193, 229, 244);
+    }
+
+    footer p {
+        color: rgb(0, 0, 0);
+    }
+
+    nav a {
+        color: rgb(193, 229, 244);
+    }
+
+    .tertiary-teaser {
+        border-top: 1px solid rgb(236, 197, 234);
+    }
+
+    aside {
+        background-color: rgb(92, 103, 132);
+    }
+
+    figcaption {
+        color: rgb(200, 200, 200);
+    }
+
+    main.newsletter {
+        background-color: rgb(92, 103, 132);
+    }
+
+    button {
+        background-color: rgb(236, 197, 234);
+        color: rgb(0, 0, 0);
+    }
+
+    button:hover {
+        color: rgb(255, 255, 255);
+    }
+
+}
