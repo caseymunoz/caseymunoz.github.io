@@ -1,6 +1,5 @@
 /*CSS DOCUMENT */
 
-
 body {
 	background-color: #fafafa;
 	color: #333333;
@@ -32,6 +31,7 @@ h1 {
 	font-size: 2.3em; 
 	font-weight: 700;
 	margin: 0.8em 0em;
+	color: #323e9b;
 }
 
 h2 {
@@ -44,6 +44,7 @@ h3 {
 	font-size: 1.4em; 
 	font-weight: 400;
 	margin: 0.5em 0em;
+	color: #535fbb;
 }
 
 p {
@@ -56,5 +57,15 @@ figcaption {
 	font-size: 1em;
 	font-weight: 300;
 	font-style: italic;
+	margin-top: 0.5em;
 	color: #6d6d6d;
+}
+
+.image-row {
+	display: flex;
+	gap: 1em;
+}
+
+.image-row img {
+	width: calc((100% - 2em) / 3);
 }
